@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(mailchimp-Hv9CS6KZayQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: whitesmoke;
+    font-family: "monoton";
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    margin-top: 0%;
+    background: rgba(255,255,255,.2);
+    border-radius: 50px;
+}
+.header .homeIcon{
+    float: left;
+    margin-left: 5%;
+    margin-top: -40px;
+    color: white;
+}
+.header .menu .listIcon{
+    float: right;
+    margin-right: 5%;
+    margin-top: -40px;
+    color: white;
+}
+.menu .list{
+    background: rgba(255,255,255,.2);
+    list-style: none;
+    align-items: center;
+    float: right;
+    width: 150px;
+    height: 180px;
+    margin-top: -25px;
+    margin-right: 35px;
+    color: white;
+}
+.menu .list .ab .b{
+    text-align: justify;
+    width: 120px;
+    text-decoration: none;
+    float: right;
+    color: white;
+    margin: 7px;
+    margin-right: 20px;
+}
+.menu .list .ab :hover{
+    display: block;
+    background: rgb(180, 63, 162);
+    border: 5px;
+}
